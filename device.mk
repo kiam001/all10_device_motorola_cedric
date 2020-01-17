@@ -207,9 +207,9 @@ PRODUCT_COPY_FILES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni \
-    init.qti.fm.sh
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
 
 # GPS Configurations
 PRODUCT_COPY_FILES += \

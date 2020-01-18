@@ -322,6 +322,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
 # Properties
 -include $(LOCAL_PATH)/device_props.mk
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/android.hardware.camera.ar.xml:system/vendor/etc/permissions/android.hardware.camera.ar.xml
+
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect
 

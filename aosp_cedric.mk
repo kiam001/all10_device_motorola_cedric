@@ -23,6 +23,7 @@ $(call inherit-product-if-exists, vendor/aosp/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # GApps
 TARGET_GAPPS_ARCH := arm64

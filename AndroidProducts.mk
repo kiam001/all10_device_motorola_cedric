@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cedric.mk
+    $(LOCAL_DIR)/xtended_cedric.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_cedric-user \
-    aosp_cedric-userdebug \
-    aosp_cedric-eng
+    xtended_cedric-user \
+    xtended_cedric-userdebug \
+    xtended_cedric-eng

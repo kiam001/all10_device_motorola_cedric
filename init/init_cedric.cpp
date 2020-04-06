@@ -84,7 +84,7 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "cedric_amzin-user 8.1.0 OPP28.85-19-4-2 3447de release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys");
+    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
 
     // sku
     std::string sku = "Moto G5 (";

@@ -38,9 +38,6 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
-# Get it Offical
-CUSTOM_BUILD_TYPE := OFFICIAL
-
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model

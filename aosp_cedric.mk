@@ -47,3 +47,6 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G5"
+    
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.atom.maintainer=kiam001

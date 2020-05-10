@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cedric.mk
+    $(LOCAL_DIR)/havoc_cedric.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_cedric-user \
-    aosp_cedric-userdebug \
-    aosp_cedric-eng
+    havoc_cedric-user \
+    havoc_cedric-userdebug \
+    havoc_cedric-eng

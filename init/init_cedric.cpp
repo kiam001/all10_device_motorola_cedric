@@ -87,8 +87,6 @@ void vendor_load_properties()
     property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys");
 
     // sku
-    std::string sku = android::base::GetProperty("ro.boot.hardware.sku", "");
-    property_override_dual("ro.product.model", "ro.vendor.product.model", sku.c_str());
     std::string sku = "Moto G5 (";
     sku.append(android::base::GetProperty("ro.boot.hardware.sku", ""));
     sku.append(")");

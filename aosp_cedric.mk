@@ -19,7 +19,7 @@
 $(call inherit-product, device/motorola/cedric/full_cedric.mk)
 
 # Inherit some common stuff.
-$(call inherit-product-if-exists, vendor/aosp/config/common.mk)
+$(call inherit-product-if-exists, vendor/aosp/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080

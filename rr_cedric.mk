@@ -19,7 +19,7 @@
 $(call inherit-product, device/motorola/cedric/full_cedric.mk)
 
 # Inherit some common stuff.
-$(call inherit-product-if-exists, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product-if-exists, vendor/rr/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -31,7 +31,7 @@ TARGET_MINIMAL_APPS := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cedric
-PRODUCT_NAME := aosp_cedric
+PRODUCT_NAME := rr_cedric
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -44,3 +44,4 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G5"
+TARGET_FACE_UNLOCK_SUPPORTED := true

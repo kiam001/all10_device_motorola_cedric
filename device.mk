@@ -266,9 +266,9 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.cedric
 
 # Display Calibration
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+#PRODUCT_PACKAGES += \
+#   vendor.lineage.livedisplay@2.0-service-sdm \
+#    vendor.lineage.livedisplay@2.0-service-sysfs
 
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_vid_inx_1080p_497.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_497.xml \
@@ -383,8 +383,8 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+ #   telephony-ext
 
 PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
 

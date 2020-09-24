@@ -38,6 +38,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8937
 TARGET_NO_BOOTLOADER := true
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -69,7 +70,7 @@ USE_DEVICE_SPECIFIC_GPS := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0,androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom user_debug=30
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237 ehci-hcd.park=3
 BOARD_KERNEL_CMDLINE += androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1
